@@ -1,0 +1,5 @@
+CREATE TABLE `module_dbconfig` (
+	`param` VARCHAR(100) NOT NULL DEFAULT '',
+	`value` MEDIUMTEXT NULL,
+	PRIMARY KEY (`param`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
